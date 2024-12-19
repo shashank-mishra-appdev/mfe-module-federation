@@ -3,8 +3,23 @@ body {
 }
 
 .container {
-  font-size: 3rem;
   margin: auto;
   max-width: 800px;
   margin-top: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-grow{
+  flex-grow: 1;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow border */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
 }
