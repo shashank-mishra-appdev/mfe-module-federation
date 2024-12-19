@@ -62,10 +62,12 @@ module.exports = (_, argv) => ({
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "remote",
+      name: "remoteApp",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./Button": "./src/components/Button",
+      },
       shared: {
         ...deps,
         react: {
