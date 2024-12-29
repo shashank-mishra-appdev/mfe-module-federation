@@ -25,7 +25,9 @@ const defaultStyles: React.CSSProperties = {
   border: 'none',
   borderRadius: '3px',
   cursor: 'pointer',
+  marginRight: '2rem',
   marginTop: '2rem'
+
 };
 
 export default Button;
